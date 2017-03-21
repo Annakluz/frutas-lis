@@ -8,16 +8,32 @@ h1 {
   font-family: 'Fredoka One', cursive;
   font-size: 40px;
   text-shadow:   #336428 -5px 5px 5px;
+  color: white;
+  text-align: center;
 }
 h2 {
   font-family: 'Fredoka One', cursive;
   font-size: 20px;
 
 }
+p {
+  font-family: "share",cursive;
+}
 header,  section, footer, aside, nav, article, figure, figcaption, hgroup{
   display: block;
 }/*es para aegurRNOS QUE SE TRATEN COMO ELEMENTOS EN BLOCK*/
 body {
+  text-align: center;
+}
+figure {
+  text-align: center;
+
+}
+form {
+  font-family: "share",cursive;
+}
+#lista {
+  font-family: "share",cursive;
   text-align: center;
 }
 #agrupar {
@@ -59,8 +75,9 @@ body {
   box-shadow:  #c8bbaf -5px 5px 3px;/*color,derecha izquierda,arriba abajo,difumina y con otro valor se esparce.. a
   aqui no ocupe el ultimo valor, también se puede agregar "inset" al final para que se vea sombreada hacia dentro*/
   transition: transform 0.2s ease-in-out 0.1s;/*la velocidad de la transfrmacion*/
+  font-family: "share",cursive;
 }
-#columna:hover {
+#columna:hover { /*el hover indica que algo ocurre cuando el cursor pasa*/
   transform: scale(1.5);
 }
 #pie {
@@ -70,4 +87,24 @@ body {
   border-top: 2px solid #999999;
   background: #28b93e;
   border-radius: 20px / 5px;
+  font-family: "share",cursive;
+  font-size: 15px;
 }
+#frutaNueva {
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px;
+  font-family: "share",cursive;
+}
+.boton {
+  font-size: 15px;
+  font-family: "share",cursive;
+  color: white;
+  background: #28b93e;
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 0px;
+  box-shadow: #c8bbaf -5px 5px 3px;
+}
+.boton:hover { /*el hover indica que algo ocurre cuando el cursor pasa*/
+  transform: scale(1.2);
