@@ -32,6 +32,16 @@ figure {
 form {
   font-family: "share",cursive;
 }
+ol  {
+  margin: 50px;
+  text-align: center;
+}
+ol li {
+  padding: 5px;
+  margin: 0px;
+  width: 100px;
+  text-align: center;
+}
 #lista {
   font-family: "share",cursive;
   text-align: center;
